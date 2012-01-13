@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>A Course in Mindfulness - Coming soon</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<div align="center">
+  <h3 align="center">&nbsp;</h3>
+  <h2 align="center"><strong>A Course in Mindfulness</strong></h2>
+  <h3 align="center">Will be available here soon</h3>
+  <p align="center"><img src="/images/cobblestones.jpg" alt="Relax, Free your Heart, Let go" ></p>
+  <p align="center">We'll be happy to inform you when it's live. All you have to do is email us.</p>
+  <p align="center">info@yogabreathbybreath.com</p>
+</div>
+
+
+<div class="depot-form">
+<% form_tag do %>
+<fieldset>
+In the meantime, if you've been invited you're gonna have to log in.
+<div>
+<label for="email">Email:</label>
+<%= text_field_tag :email, params[:email] %>
+</div>
+<div>
+<label for="password">Password:</label>
+<%= password_field_tag :password, params[:password] %>
+</div>
+<div>
+<%= submit_tag "Login" %>
+</div>
+</fieldset>
+<% end %>
+</div>
+
+</body>
+</html>
